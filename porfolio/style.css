@@ -1,0 +1,16 @@
+h3{
+    background-color: black;
+    margin: 10px;
+    padding: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+div{
+    margin: 10px;
+    color: #000;
+    padding: 10px;
+    background-color: aliceblue;
+}
+body{
+    background-color: beige;
+}
