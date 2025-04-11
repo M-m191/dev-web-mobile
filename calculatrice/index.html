@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    
+    <div class="calculatrice">
+        <h1>calculatrice</h1>
+        <div class="ecran" id="ecran">0</div>
+        <div class="touches">
+            <button class="btn" onclick="ajouterPourcentage()">%</button>
+            <button class="btn paranthese" onclick="ajouterOperation('(')">(</button>
+            <button class="btn paranthese" onclick="ajouterOperation(')')">)</button>
+            <button class="btn" onclick="effacerTout()">Cls</button>
+            <button class="btn" onclick="supprimer()">sup</button>
+        </div>
+        <div class="chiffre"> 
+            
+            <button class="btn" onclick="ajouterNombre('1')">1</button>
+            <button class="btn" onclick="ajouterNombre('2')">2</button>
+            <button class="btn" onclick="ajouterNombre('3')">3</button>
+            <button class="btn operation" onclick="ajouterOperation('/')">/</button>
+            
+          
+            <button class="btn" onclick="ajouterNombre('4')">4</button>
+            <button class="btn" onclick="ajouterNombre('5')">5</button>
+            <button class="btn" onclick="ajouterNombre('6')">6</button>
+            <button class="btn operation" onclick="ajouterOperation('*')">×</button>
+           
+            
+            <button class="btn" onclick="ajouterNombre('7')">7</button>
+            <button class="btn" onclick="ajouterNombre('8')">8</button>
+            <button class="btn" onclick="ajouterNombre('9')">9</button>
+            <button class="btn operation" onclick="ajouterOperation('-')">-</button>
+           
+            
+            
+            <button class="btn" onclick="ajouterDecimal()">.</button>
+            <button class="btn zero" onclick="ajouterNombre('0')">0</button>
+            <button class="btn" onclick="calculer()">=</button>
+            <button class="btn operation" onclick="ajouterOperation('+')">+</button>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
+
